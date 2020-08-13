@@ -1,0 +1,59 @@
+body {
+margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.logo {
+  width: 20%;
+  padding: 10px;
+  color: white;
+  font-size: 50px;
+}
+
+.main-menu {
+  width: calc(80% - 25px);
+  text-align: right;
+  vertical-align: text-bottom;
+}
+
+.nav-item:hover {
+  background-color: red;
+  height: 80px;
+}
+
+.nav-item:hover a {
+  color: black;
+}
+
+.nav-item {
+  padding: 8px 10px;
+  display: inline-block;
+}
+
+.nav-item a {
+  color: white;
+}
+
+.main-banner {
+  text-align: center;
+  height: 500px;
+  padding: 20px;
+  background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fr33C2oNkOFc%2Fmaxresdefault.jpg');
+}
+
+.main-banner  h1 {
+  color: white;
+}
+
+header {
+  background-color: rebeccapurple;
+}
+
+header > * {
+  display: inline-block;
+}
